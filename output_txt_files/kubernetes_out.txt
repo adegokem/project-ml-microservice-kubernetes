@@ -1,5 +1,16 @@
 Error from server (AlreadyExists): pods "flaskapp" already exists
 NAME       READY   STATUS    RESTARTS   AGE
-flaskapp   1/1     Running   0          2m11s
+flaskapp   1/1     Running   0          3m33s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+Port: 8000
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212    973   4300 --:--:-- --:--:-- --:--:--  5416{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
